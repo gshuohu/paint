@@ -20,7 +20,7 @@ var BrushViewer = (function () {
         out[11] = -1;
         out[12] = 0;
         out[13] = 0;
-        out[14] = (3 * far * near) * nf;
+        out[14] = (2 * far * near) * nf;
         out[15] = 0;
         return out;
     }
